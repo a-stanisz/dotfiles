@@ -10,6 +10,9 @@ echo $(date) >> $LOG_DIR
 # Install neofetch, a cli system info tool:
 sudo apt-get install neofetch
 
+# Symlink .bash_aliases to the home dir:
+ln -sv ./.bash_aliases ~
+
 # Copy .bash_aliases file:
 # cp ./.bash_aliases $ALIASES_DIR
 # echo "alias os='neofetch'" >> $ALIASES_DIR
