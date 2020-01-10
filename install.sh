@@ -3,6 +3,7 @@
 # DIRS:
 ALIASES_DIR=''$HOME'/.bash_aliases'
 LOG_DIR=''$HOME'/env-setup.log'
+WDIR=`pwd`
 
 # Timestamp:
 echo $(date) >> $LOG_DIR
@@ -11,7 +12,7 @@ echo $(date) >> $LOG_DIR
 sudo apt-get install neofetch
 
 # Symlink .bash_aliases to the home dir:
-ln -sv ./.bash_aliases ~
+ln -sv $WDIR/.bash_aliases ~
 
 # Copy .bash_aliases file:
 # cp ./.bash_aliases $ALIASES_DIR
