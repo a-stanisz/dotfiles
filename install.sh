@@ -11,7 +11,7 @@ echo $(date) >> $LOG_DIR
 sudo apt-get install neofetch
 
 # Copy .bash_aliases file:
-cp ./.bash_aliases $ALIASES_DIR
+# cp ./.bash_aliases $ALIASES_DIR
 # echo "alias os='neofetch'" >> $ALIASES_DIR
 # echo "alias c='clear'" >> $ALIASES_DIR
 # echo "alias rld='source ~/.bashrc'" >> $ALIASES_DIR
