@@ -5,7 +5,7 @@ ALIASES_DIR=''$HOME'/.bash_aliases'
 LOG_DIR=''$HOME'/env-setup.log'
 
 # Timestamp
-echo '$date' >> $LOG_DIR
+echo $(date) >> $LOG_DIR
 
 # Install neofetch, a cli system info tool:
 sudo apt-get install neofetch
