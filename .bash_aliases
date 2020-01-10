@@ -1,0 +1,8 @@
+alias os='neofetch'
+alias c='clear'
+alias rld='source ~/.bashrc'
+alias e='exit'
+alias dev='cd ~/workspace; pwd; ls -a'
+alias gs='git status'
+alias python='python3'
+alias ptn='python'
